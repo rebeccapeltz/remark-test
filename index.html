@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Montserrat);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Montserrat'; }
+      h1, h2, h3 {
+        font-family: 'Montserrat';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      div.my-header {
+        padding: 5px;
+        font-size: 3ch;
+	background-color: #0071BA;
+  font-family: 'Montserrat';
+  color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	text-align: left;
+}
+
+
+div.my-footer {
+  border-top: 1px solid #ccc;
+  font-size: 10pt;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 30px;
+	width: 100%;
+}
+
+div.my-footer p {
+    margin-top: 10px;
+    height: 40px;
+}
+
+div.my-footer img {
+	height: 30px;
+	bottom: 0px;
+	left: 0px;
+	position: fixed;
+}
+.remark-slide-content{
+  font-size: 16px !important;
+}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+title:first
+layout: true
+
+<div class="my-header">{{title}}</div>
+<div class="my-footer"><img src="https://res.cloudinary.com/demo/image/upload/w_15,r_10/sample.jpg" /><p>&copy; 2018 MyCompany, Inc.</p></div>
+
+---
+title: Intro 
+class: center, middle
+
+# Advanced Concepts For Developers
+
+&nbsp;  | &nbsp;
+- | -
+![sample](https://res.cloudinary.com/demo/image/upload/w_400/sample.jpg) | ![sample](https://res.cloudinary.com/demo/image/upload/w_400/sample.jpg)
+
+---
+
+class: center, middle
+
+# Setup
+
+---
+
+# Create a free Cloudinary training account
+
+You can create a new, free account on Cloudinary by adding +training to your
+email when registering.  
+
+Signup [here](https://cloudinary.com/users/register/free)
+
+For example, I can create an account with this email:
+rebecca.peltz+training@cloudinary.com.  
+
+This is important, as we’ll be configuring settings and using Cloudinary add-ons.
+
+---
+
+# Introduction
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
